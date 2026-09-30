@@ -1,0 +1,29 @@
+
+:root { --acc: #1d4ed8; --acc-ink: #fff; }
+.info {
+  background: color-mix(in srgb, var(--acc) 12%, var(--card));
+  border-radius: 14px; padding: 12px 14px; margin: 0; font-weight: 700;
+}
+.person {
+  display: block; width: 100%; text-align: left; border: 0;
+  background: var(--card); border-radius: 16px; padding: 14px 14px 14px 16px;
+  border-left: 8px solid #15803d; box-shadow: var(--shadow); color: inherit;
+}
+.person.soon { border-left-color: #d97706; background: color-mix(in srgb, #d97706 12%, var(--card)); }
+.person.urgent { border-left-color: #dc2626; background: color-mix(in srgb, #dc2626 12%, var(--card)); }
+.person.over { border-left-color: #7f1d1d; background: color-mix(in srgb, #7f1d1d 16%, var(--card)); }
+.person.none { border-left-color: var(--line); }
+.person.ok { border-left-color: #15803d; }
+.who { font-weight: 800; font-size: 1.05rem; }
+.num { font-size: clamp(2.8rem, 16vw, 4.4rem); font-weight: 800; line-height: 0.95; letter-spacing: -0.04em; }
+.word { font-weight: 800; margin-top: 4px; }
+.sub { margin: 6px 0 0; }
+.hero {
+  border-radius: 18px; padding: 16px; background: var(--card); box-shadow: var(--shadow);
+  border-left: 8px solid #15803d;
+}
+.hero.soon { border-left-color: #d97706; }
+.hero.urgent { border-left-color: #dc2626; }
+.hero.over { border-left-color: #7f1d1d; }
+.hero.none { border-left-color: var(--line); }
+.hero.ok { border-left-color: #15803d; }
