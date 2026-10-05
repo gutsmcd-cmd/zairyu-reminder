@@ -34,7 +34,7 @@ const ja = {
 };
 export type Dict = typeof ja;
 const en: Dict = {
-  app: 'Zairyu Reminder',
+  app: 'Residence Reminder',
   add: 'Add a person',
   back: 'All cards',
   emptyTitle: 'Add a card',
